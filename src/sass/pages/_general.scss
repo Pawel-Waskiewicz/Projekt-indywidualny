@@ -1,0 +1,15 @@
+/* Style page content */
+.main {
+    margin: 20px 20px 0 180px; 
+    background-color: white;
+  }
+
+.title {
+    padding: 10px;
+    border-bottom: solid 1px $text-main-color;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+}
