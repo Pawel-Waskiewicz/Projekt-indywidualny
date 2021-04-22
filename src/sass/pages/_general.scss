@@ -1,15 +1,60 @@
 /* Style page content */
 .main {
-    margin: 20px 20px 0 180px; 
-    background-color: white;
-  }
-
-.title {
-    padding: 10px;
-    border-bottom: solid 1px $text-main-color;
+  margin: 20px 20px 0 180px;
+  background-color: white;
 }
+
+
 
 .date {
-    display: flex;
-    align-items: center;
+  display: block;
+  text-align: center;
+  i{
+      margin-right: 5px;
+      font-size: 18px;
+      background-color: $color-btn-background;
+      color: $text-main-color;
+      height: 30px;
+      width: 30px;
+      border-radius: 20%;
+  }
 }
+
+.date-input {
+    height: 30px;
+}
+
+.paragraph p {
+    display: inline-block;
+    text-align: center;
+}
+
+.chart-img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+    * {
+  box-sizing: border-box;
+}
+  
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
