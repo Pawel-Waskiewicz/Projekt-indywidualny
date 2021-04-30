@@ -1,12 +1,28 @@
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
 .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+  background-color: $color-btn-background;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: $brand-font;
+}
+
+.btn-one{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.btn-two {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

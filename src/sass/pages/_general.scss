@@ -2,59 +2,116 @@
 .main {
   margin: 20px 20px 0 180px;
   background-color: white;
-}
-
-
-
+} 
+/* first section */
 .date {
-  display: block;
-  text-align: center;
-  i{
-      margin-right: 5px;
-      font-size: 18px;
-      background-color: $color-btn-background;
-      color: $text-main-color;
-      height: 30px;
-      width: 30px;
-      border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  input {
+    margin-right: 5px;
   }
 }
 
-.date-input {
+.date-icons {
+  display: flex;
+  justify-content: center;
+
+  i {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 18px;
+    background-color: $color-btn-background;
+    color: $text-main-color;
     height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    line-height: 30px;
+  }
+}
+
+
+.date-input {
+  height: 30px;
 }
 
 .paragraph p {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
+}
+
+.info-container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.first-row{
+  padding-right: 30px;
+
+  p{
+    padding-right: 30px;
+  }
+}
+
+.second-row {
+  padding-right: 58px;
+
+  p{
+    padding-right: 30px;
+  }
+}
+
+.chart{
+  max-width: 1170px;
 }
 
 .chart-img {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
-    max-height: 500px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  
+}
+/* second section */
+
+.first-link{
+  border-top: solid 1px $text-main-color;
 }
 
-    * {
-  box-sizing: border-box;
+.kodilla-link {
+  border-bottom: solid 1px $text-main-color;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-size: 16px;
+
+  p {
+    padding-left: 12px;
+    padding-right: 140px;
+    font-family: $paragraph-font;
+    font-weight: bold;
+  }
+
+  i {
+    opacity: 0;
+    color: black;
+    line-height: 25px;
+    padding-right: 20px;
+  }
+
+  a {
+    padding-right: 100px;
+    color: rgb(123, 117, 221);
+    text-decoration: none;
+  }
 }
-  
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-   
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.link-box :hover {
+  background-color: $color-hover;
 
+  i {
+    opacity: 1;
+  }
+}

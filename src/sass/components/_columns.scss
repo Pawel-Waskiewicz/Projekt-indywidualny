@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+  
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+
+  

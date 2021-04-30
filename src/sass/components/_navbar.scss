@@ -4,8 +4,8 @@ nav{
 }
 
 .topnav {
-  margin-left: 67%;
-  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
 }
    
 /* Style the links inside the navigation bar */
