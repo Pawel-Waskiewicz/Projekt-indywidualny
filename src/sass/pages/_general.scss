@@ -1,11 +1,12 @@
 /* Style page content */
 .main {
-  margin: 40px 20px 0 220px;
+  margin: 20px 20px 0 220px;
   background-color: white;
+  box-shadow: 0 0 1em #292929;
 } 
 /* first section */
 .first-page {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 .date {
   display: flex;
@@ -34,7 +35,9 @@
     line-height: 30px;
   }
 }
-
+.date-icons :hover {
+  color: #292929;
+}
 
 .date-input {
   height: 30px;

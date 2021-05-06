@@ -19,7 +19,7 @@
 
 .main-menu-container {
   font-family: $paragraph-font;
-  background-color: rgb(44, 43, 43) ;
+  background-color: $color-sidenav-background ;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -30,7 +30,7 @@
 }
 
 .main-menu {
-  
+  margin-top: 0;
   padding: 0;
   display: flex;
   list-style: none;
@@ -46,6 +46,9 @@
     color: $text-main-color;
     cursor: pointer;
     font-size: 17px;
+  }
+  i {
+    padding-right: 10px;
   }
 }
 
@@ -83,9 +86,11 @@
 
 
 .logo {
-  font-size: 20px;
+  margin-top: 8px;
+  font-size: 25px;
   font-family: $logo-font;
   margin-left: 20px;
+  color: white;
 }
 
 .manager { 
@@ -109,6 +114,11 @@
   }
 }
 
+.manager-div p:hover {
+  color: white;
+  cursor: pointer;
+}
+
 /* PHONE SIDENAV */
 .phone-sidebar{
   transform: translateY(-100%);
@@ -116,4 +126,36 @@
 
 .showMenu {
   transform: translateY(0) ;
+}
+
+.your-account {
+  border-top: 1px solid $text-main-color;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  a {
+  margin-top: 2px;
+  text-decoration: none;
+  color: $text-main-color;
+  font-family: $paragraph-font;
+  margin-left: 15px;
+  font-size: 16px;
+  }
+  i {
+    margin-right: 5px;
+  }
+}
+
+.your-account :hover {
+  color: #f1f1f1;
+  border-left: solid 5px orange;
+  background-color: rgb(77, 75, 75);
+
+  i {
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
 }

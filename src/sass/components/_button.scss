@@ -16,7 +16,11 @@
   cursor: pointer;
   font-family: $brand-font;
 }
-
+.button:hover {
+  
+  font-weight: bold;
+  box-shadow: 0 0 1em #292929;
+}
 .btn-one{
   margin-bottom: 30px;
   margin-top: 30px;

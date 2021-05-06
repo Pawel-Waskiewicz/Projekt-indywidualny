@@ -1,6 +1,8 @@
 nav .topnav{
   border-bottom: 1px solid $text-main-color;
   background-color: white;
+  font-family: $paragraph-font;
+  font-weight: bolder;
 }
 
 .topnav {
@@ -24,6 +26,7 @@ nav .topnav{
 
   i{
     margin-right: 8px;
+    color: $color-sidenav-background;
   }
 }
    
