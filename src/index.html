@@ -20,31 +20,53 @@
           
     </nav>
     <!--- SIDENAV -->
-    <div class="sidenav desktop-sidenav">
-        <div class="logo-container">
-            <p class="logo">Just do it</p>
-            <button><i class="fas fa-bars"></i></button>
-        </div>
-        <a href="#" class="shit"><i class="far fa-star icons"></i>General</a>
-        <a href="#"><i class="fas fa-digital-tachograph icons"></i>Details</a>
-        <a href="#"><i class="fas fa-link icons"></i>Links</a>
-        <a href="#"><i class="fas fa-th icons"></i>Banners</a>
-        <a href="#"><i class="far fa-user icons"></i>Personal data</a>
-        <a href="#"><i class="far fa-user icons"></i>Payout</a>
-        <a href="#"><i class="fas fa-undo-alt icons"></i>Postback</a>
-        <div class="manager">
-            <p>YOUR MANAGER</p>
-            <div class="manager-div">
-                <img src="images/profile-picture.jpg" alt="profile-picture">
-                <p>Paweł W.</p>
+    <nav class="sidenav">
+        <div class="hamburger-btn"><i class="fas fa-bars"></i></div>
+        <div class="main-menu-container desktop-sidebar">
+            <div class="logo-container">
+                <p class="logo">Just do it</p>
             </div>
-        </div>
-    </div>
-    <div class="phone-sidenav hamburger-btn">
-        <a href="#"><i class="fas fa-bars"></i></a>
-    </div>
+            <ul class="main-menu showMenu">
+                <li class="option"><a href="#" ><i class="far fa-star icons"></i>General</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-digital-tachograph icons"></i>Details</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-link icons"></i>Links</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-th icons"></i>Banners</a></li>
+                <li class="option"><a href="#" ><i class="far fa-user icons"></i>Personal data</a></li>
+                <li class="option"><a href="#" ><i class="far fa-user icons"></i>Payout</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-undo-alt icons"></i>Postback</a></li>
+            </ul>
+            <div class="manager">
+                <p>YOUR MANAGER</p>
+                <div class="manager-div">
+                    <img src="images/profile-picture.jpg" alt="profile-picture">
+                    <p>Paweł W.</p>
+                </div>
+            </div>  
+        </div>  
+        <div class="main-menu-container phone-sidebar">
+            <div class="logo-container">
+                <p class="logo">Just do it</p>
+            </div>
+            <ul class="main-menu ">
+                <li class="option"><a href="#" ><i class="far fa-star icons"></i>General</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-digital-tachograph icons"></i>Details</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-link icons"></i>Links</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-th icons"></i>Banners</a></li>
+                <li class="option"><a href="#" ><i class="far fa-user icons"></i>Personal data</a></li>
+                <li class="option"><a href="#" ><i class="far fa-user icons"></i>Payout</a></li>
+                <li class="option"><a href="#" ><i class="fas fa-undo-alt icons"></i>Postback</a></li>
+            </ul>
+            <div class="manager">
+                <p>YOUR MANAGER</p>
+                <div class="manager-div">
+                    <img src="images/profile-picture.jpg" alt="profile-picture">
+                    <p>Paweł W.</p>
+                </div>
+            </div>     
+    </nav>
     
-    <div class="main">
+    
+    <div class="main first-page">
         <div class="title">
             <p>GENERAL STATISTICS</p>
         </div>
@@ -84,7 +106,7 @@
             </div>
         </div>
     </div>
-    <div class="main">
+    <div class="main second-page">
         <div class="title">
             <p>LINKS</p>
         </div>
@@ -177,6 +199,7 @@
             <button class="button btn-two">+ add new</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>

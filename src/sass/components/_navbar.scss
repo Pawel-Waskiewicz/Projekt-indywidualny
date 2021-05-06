@@ -1,4 +1,4 @@
-nav{
+nav .topnav{
   border-bottom: 1px solid $text-main-color;
   background-color: white;
 }
@@ -6,6 +6,9 @@ nav{
 .topnav {
   display: flex;
   justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
    
 /* Style the links inside the navigation bar */
